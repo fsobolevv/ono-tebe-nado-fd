@@ -168,6 +168,7 @@ a:hover {
 .lots__card-list {
   display: flex;
   justify-content: space-between;
+  flex-wrap: wrap;            
   width: 1052px;
   gap: 20px;
   list-style-type: none;
