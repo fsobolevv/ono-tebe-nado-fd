@@ -13,21 +13,25 @@
     <header class="header">
       <nav class="header_menu">
         <ul class="header__links-list">
-          <li class="header__links-list-item_no-bullit"><a>главная</a></li>
-          <li class="header__links-list-item"><a>посмотреть лоты</a></li>
-          <li class="header__links-list-item"><a>об аукционе</a></li>
+          <li class="header__links-list-item_no-bullit">
+            <a href="#0" class="header__link header__links-list-active"
+              >главная</a
+            >
+          </li>
+          <li>
+            <a href="#0" class="header__link">посмотреть лоты</a>
+          </li>
+          <li><a href="#0" class="header__link">об аукционе</a></li>
         </ul>
       </nav>
-      <div class="header__logo">
-        <a
-          ><img
-            class="header_logo-image"
-            src="images/logo-black.svg"
-            alt="Логотип"
-        /></a>
-      </div>
-      <address class="address">
-        <ul class="header_address">
+      <a href="#0" class="header__logo"
+        ><img
+          class="header_logo-image"
+          src="images/logo-black.svg"
+          alt="Логотип"
+      /></a>
+      <address class="address__header">
+        <ul class="address__text">
           <li>
             <a class="header_address_link" href="tel:+99995555555"
               >+9 999 555 5555</a
@@ -38,7 +42,7 @@
               >info@sobaka.ge</a
             >
           </li>
-          <li>наб. Принсенграхт 263-265, Амстердам</li>
+          <li>наб. Принсенграхт 263- 265, Амстердам</li>
         </ul>
       </address>
     </header>
@@ -46,17 +50,17 @@
     <main>
       <section class="cover">
         <div class="overlay"></div>
-        <div class="aligned-text">
-          <h1 class="cover__title">
-            <span class="text-align-left">Оно</span>
-            <span class="text-align-center"
-              >теб<span class="no-letter-spacing">е</span></span
-            >
-            <span class="text-align-right"
-              >над<span class="no-letter-spacing">о</span></span
-            >
-          </h1>
-        </div>
+
+        <h1 class="cover__title">
+          <span class="text-align-left">Оно</span>
+          <span class="text-align-center"
+            >теб<span class="no-letter-spacing">е</span></span
+          >
+          <span class="text-align-right"
+            >над<span class="no-letter-spacing">о</span></span
+          >
+        </h1>
+
         <div class="description">
           <p class="cover__description-text">
             Аукцион вещей, в которые никто не верил
@@ -69,10 +73,11 @@
 
       <section class="lots">
         <h2 class="lots__heading">Лоты</h2>
+
         <ul class="lots__card-list">
           <li class="lots__card-list-item">
-            <a
-              ><article class="card_type_film">
+            <a href="#0"
+              ><article class="card card_type_film">
                 <div class="overlay"></div>
                 <h2 class="card__title">
                   Фильм режиссёра, который бросил киношколу
@@ -86,8 +91,8 @@
             </a>
           </li>
           <li class="lots__card-list-item">
-            <a
-              ><article class="card_type_book">
+            <a href="#0"
+              ><article class="card card_type_book">
                 <div class="overlay"></div>
                 <h2 class="card__title">
                   Книга, где описан один скучный день из жизни рекламного агента
@@ -103,9 +108,9 @@
               </article></a
             >
           </li>
-          <li>
+          <li class="lots__card-list-item">
             <a
-              ><article class="card_type_picture">
+              ><article class="card card_type_picture">
                 <div class="overlay"></div>
                 <h2 class="card__title">
                   Картина, которую повторит даже 5-летний сын маминой подруги
@@ -120,7 +125,7 @@
             >
           </li>
         </ul>
-        <a class="lots__look-more-link">Посмотреть больше</a>
+        <a class="lots__look-more-link" href="#0">Посмотреть больше</a>
       </section>
 
       <!-- секция about -->
@@ -160,29 +165,29 @@
     <!-- секция footer -->
 
     <footer class="footer">
-      <address class="address">
-        <ul class="footer_address">
+      <address class="address__footer">
+        <ul class="address__text">
           <li><a href="tel:+99995555555">+9 999 555 5555</a></li>
           <li><a href="mailto:info@sobaka.ge">info@sobaka.ge</a></li>
-          <li>наб. Принсенграхт 263- 265, Амстердам</li>
+          <li>наб. Принсенграхт 263-265, Амстердам</li>
         </ul>
       </address>
       <nav class="footer__menu">
         <ul class="footer__menu-list">
           <li class="footer__menu-list-item">
-            <a class="footer__menu-link_active">Главная</a>
+            <a class="footer__link footer__link_active" href="#0">Главная</a>
           </li>
           <li class="footer__menu-list-item">
-            <a class="footer__menu-link">Посмотреть лоты</a>
+            <a class="footer__link" href="#0">Посмотреть лоты</a>
           </li>
           <li class="footer__menu-list-item">
-            <a class="footer__menu-link">Об аукционе</a>
+            <a class="footer__link" href="#0">Об аукционе</a>
           </li>
         </ul>
       </nav>
       <ul class="footer__social-list">
         <li class="footer__social-list-item">
-          <a class="footer__social-link">
+          <a class="footer__social-link" href="#0">
             <img
               class="footer__social-icon"
               src="./images/yt.svg"
@@ -191,7 +196,7 @@
           </a>
         </li>
         <li class="footer__social-list-item">
-          <a class="footer__social-link">
+          <a class="footer__social-link" href="#0">
             <img
               class="footer__social-icon"
               src="./images/vk.svg"
@@ -200,7 +205,7 @@
           </a>
         </li>
         <li class="footer__social-list-item">
-          <a class="footer__social-link">
+          <a class="footer__social-link" href="#0">
             <img
               class="footer__social-icon"
               src="./images/pinterest.svg"
